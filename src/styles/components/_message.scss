@@ -1,0 +1,18 @@
+.message {
+  display: flex;
+  gap: 1em;
+
+  img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  div {
+    background-color: map-get($colors, background_secondary);
+    padding: 1em;
+    border-start-end-radius: 1em;
+    border-end-end-radius: 1em;
+    border-end-start-radius: 1em;
+    max-width: 75%;
+  }
+}

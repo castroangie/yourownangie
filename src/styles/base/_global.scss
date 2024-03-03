@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  font-family: $font_body;
+  color: map-get($colors, text_primary);
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: map-get($colors, background_primary);
+}

@@ -1,0 +1,18 @@
+.button {
+  padding: 1em;
+  background-color: map-get($colors, background_primary);
+  border-top: 1px solid map-get($colors, border);
+
+  button {
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 2em;
+    border: 0;
+    background-color: map-get($colors, accent_primary);
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: map-get($colors, accent_primary_hover);
+    }
+  }
+}
