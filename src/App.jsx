@@ -26,7 +26,7 @@ function App() {
           setTimeout(() => j++, 500);
           console.log(j);
           console.log(newMessage[j]);
-          setTimeout(messageSequence, 1500);
+          setTimeout(messageSequence, 1000);
         }
       }
       messageSequence();

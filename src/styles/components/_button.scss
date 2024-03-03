@@ -10,6 +10,7 @@
     border: 0;
     background-color: map-get($colors, accent_primary);
     transition: all 0.2s ease;
+    font-size: 1em;
 
     &:hover {
       background-color: map-get($colors, accent_primary_hover);
